@@ -1,4 +1,4 @@
-# Mypython-tt
+#劳动法咨询助手
 # 1、项目背景与需求设计：
 该项目是一个基于RAG的劳动法法律条文智能问答助手。旨在帮助用户快速获得劳动法相关问题的解答。
 ## 1.1 法律依据文件：
@@ -40,6 +40,7 @@ embedding模型，采用text2vec-base-chinese-sentence，从modlescope进行下�
 # 3、系统架构
 1、系统整体架构：
 <img width="506" height="562" alt="图片1" src="https://github.com/user-attachments/assets/9d2b70bd-9583-4767-9287-33f740266a2b" />
+
 2、系统详细交互流程：
 LLM向量库后端前端用户LLM向量库后端前端用户输入法律问题发送查询请求执行语义检索返回候选条款生成最终回答返回结构化结果展示专业解答查看支持依据。
 <img width="731" height="415" alt="图片2" src="https://github.com/user-attachments/assets/b160500f-b68e-46e1-a0f7-58708c2dcb61" />
