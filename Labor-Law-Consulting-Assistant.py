@@ -66,7 +66,7 @@ def init_models():
     llm = OpenAILike(
         model="glm-4",  # 可选模型：glm-4, glm-3-turbo, characterglm等
         api_base="https://open.bigmodel.cn/api/paas/v4",  # 关键！必须指定此端点
-        api_key="f56e497a962b45739347c45bf40c1372.AyiwcVRUF6Hiy2dz",
+        api_key="你的key",
         context_window=128000,  # 按需调整（glm-4实际支持128K）
         is_chat_model=True,
         is_function_calling_model=False,  # GLM暂不支持函数调用
@@ -308,4 +308,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
