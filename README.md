@@ -45,4 +45,9 @@ embedding模型，采用text2vec-base-chinese-sentence，从modlescope进行下�
 LLM向量库后端前端用户LLM向量库后端前端用户输入法律问题发送查询请求执行语义检索返回候选条款生成最终回答返回结构化结果展示专业解答查看支持依据。
 <img width="731" height="415" alt="图片2" src="https://github.com/user-attachments/assets/b160500f-b68e-46e1-a0f7-58708c2dcb61" />
 
-# 4、页面效果
+# 4、数据处理
+要保证RAG良好的效果，对法律条文原始数据的处理，非常重要。原理的法律条文，需整理成格式统一的josn数据，以方便检索使用。
+# 5、最终效果
+
+<img width="1872" height="962" alt="image" src="https://github.com/user-attachments/assets/f92b87cb-7a5a-449b-8c55-7fcf92435b55" />
+
